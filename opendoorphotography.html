@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Wedding Photography</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, figure {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        /* Container for content */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #e9ecef;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        /* About Me */
+        .about {
+            padding: 50px 0;
+            background: #fff;
+        }
+
+        /* Portfolio */
+        .portfolio {
+            padding: 50px 0;
+            background: #e9ecef;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Form */
+        .contact {
+            padding: 50px 0;
+            background: #fff;
+        }
+
+        .contact form {
+            width: 50%;
+            margin: auto;
+        }
+
+        .contact form input[type="text"],
+        .contact form input[type="email"],
+        .contact form textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .contact form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            padding: 10px 25px;
+            border: 0;
+            cursor: pointer;
+        }
+
+        .contact form input[type="submit"]:hover {
+            background: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Your Wedding Photography</h1>
+            <p>Capturing your moments with love and care.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate wedding photographer dedicated to capturing the beauty and emotion of your special day. With a keen eye for detail and a creative touch, I strive to create timeless memories for you to cherish forever. </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <img src="placeholder-image-1.jpg" alt="Wedding photo">
+            <img src="placeholder-image-2.jpg" alt="Wedding photo">
+            <img src="placeholder-image-3.jpg" alt="Wedding photo">
+            <!-- Add more placeholder images as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Your Wedding Photography © 2024</p>
+    </footer>
+
+</body>
+</html>
